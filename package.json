@@ -1,0 +1,39 @@
+{
+  "name": "node-cache-persist",
+  "version": "0.0.1",
+  "description": "Persitance solution to save the state of node-cache to the disk or a db",
+  "keywords": [],
+  "homepage": "https://github.com/mpneuried/node-cache-persist",
+  "bugs": "https://github.com/mpneuried/node-cache-persist/issues",
+  "author": {
+    "name": "mpneuried",
+    "email": "",
+    "url": "https://github.com/node-cache-persist"
+  },
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mpneuried/node-cache-persist.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "mpbasic": "0.0.x",
+    "node-cache": "^3.0.0"
+  },
+  "devDependencies": {
+    "should": "4.3.x",
+    "grunt": "0.4.x",
+    "grunt-regarde": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-include-replace": "*",
+    "grunt-mocha-cli": "*",
+    "grunt-docker": "0.0.x",
+    "grunt-contrib-clean": "*"
+  }
+}
